@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'popins', sans-serif;
+
+}
+
+.main {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+@media (max-width: 678px) {
+  .main {
+    width: 90%;
+  }
+}
+
+.contain-title h2 {
+  font-size: 35px;
+  padding: 70px 0 100px 0;
+}
+
+@media (max-width: 678px) {
+  .contain-title h2 {
+    
+    padding: 50px 0 20px 0 ;
+  }
+}
+
+.contain-who h3 {
+  font-size: 22px;
+  padding: 70px 0 20px 40px;
+}
+@media (max-width: 678px) {
+  .contain-who h3 {
+
+    padding: 20px 20px 0 0;
+  }
+}
+
+.contain-who p {
+  font-size: 15px;
+  padding:  0 0 20px 40px;
+  width: 80%;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 678px) {
+  .contain-who p {
+    letter-spacing: 1px;
+    padding: 20px 0 0 0;
+    font-weight: 400;
+  }
+}
+
+
+.contain {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+@media (max-width: 678px) {
+  .contain {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 100px;
+  padding-top: 50px;
+}
+
+@media (max-width: 678px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+}
+
+.grid .img2, .img5{
+  margin-top: 50px;
+}
+.grid .img2 h2, .img5 h2{
+  margin-top: 35px;
+} 
+
+.container p {
+  font-weight: bold;
+}
+
+h2{
+  font-size: 17px;
+}
+
+.img1, .img2, .img3, .img4, .img5, .img6 {
+  display: grid;
+  columns: 2;
+  
+}
+.img1 p,.img2 p, .img3 p, .img4 p, .img5 p, .img6 p{
+  grid-column: 2;
+  writing-mode:vertical-lr;
+  font-size: 10px;
+}
+
+
+img {
+  width: 100%;
+}
+
+
+
