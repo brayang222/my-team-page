@@ -60,6 +60,6 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [portfolio.com](https://{portfoliobra.netlify.app/})
-- GitHub [@brayang222](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/BrayanGmz_})
+- Website [portfolio.com](https://portfoliobra.netlify.app/)
+- GitHub [@brayang222](https://github.com/your-usermame)
+- Twitter [@your-twitter](https://twitter.com/BrayanGmz_)
